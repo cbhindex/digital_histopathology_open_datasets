@@ -1,4 +1,4 @@
-# A Summary of Digital Histopathology Open Databases
+# A Summary of Digital Histopathology Open Datasets
 
 This document shows a summary of open databases in digital histopathology sorting by types of cancers. A dataset description including the goal, type of annotations, and download methods are described in each of the datasets.
 
