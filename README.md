@@ -10,6 +10,10 @@ This document shows a summary of open databases in digital histopathology sortin
 | Lung Cancer | 1 |
 | Gastrointestinal Cancer | 2 |
 
+\@ Authour: Binghao Chai <br>
+\@ Institute: Computer Science Department, University College London (UCL) <br>
+\@ Last Update: 15 August, 2021 <br>
+
 ## 1.Breast Cancer
 
 ### 1.1 MITOS Dataset
