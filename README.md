@@ -4,6 +4,8 @@ _\@ Authour: Binghao Chai_ <br>
 _\@ Institute: Computer Science Department, University College London (UCL)_ <br>
 _\@ Last Update: 15 August, 2021_ <br>
 
+---
+
 This document shows a summary of open databases in digital histopathology sorting by types of cancers. A dataset description including the goal, type of annotations, and download methods are described in each of the datasets.
 
 | Type of Cancer | Number of Datasets |
