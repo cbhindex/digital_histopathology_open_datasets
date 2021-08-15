@@ -9,18 +9,18 @@ _Last Update: 15 August, 2021_ <br>
 This document shows a summary of open databases in digital histopathology sorting by types of cancers. A dataset description including the goal, type of annotations, and download methods are described in each of the datasets.
 
 Table 1: Dataset statistics by type of cancer <br>
-| <div style="width: 150pt">Type of Cancers</div> | Number of Datasets |
+| Type of Cancers | Number of Datasets |
 | :--: | :--: |
-| Breast Cancer | 13 |
+| <div style="width: 150pt">Breast Cancer</div> | 13 |
 | Colon Cancer | 6 |
 | Pan Cancer | 3 |
 | Lung Cancer | 1 |
 | Gastrointestinal Cancer | 2 |
 
 Table 2: Dataset statistics by type of conputationsl tasks (note: one dataset may match multi-tasks) <br>
-| <div style="width: 150pt">Type of Tasks</div> | Number of Datasets |
+| Type of Tasks | Number of Datasets |
 | :--: | :--: |
-| Mitosis Detection and Counting | 5 |
+| <div style="width: 150pt">Mitosis Detection and Counting</div> | 5 |
 | Cancer Scoring and Grading | 4 |
 | Tumour Classificationi and Detection | 9 |
 | Nuclei Segmentation and Detection | 7 |
