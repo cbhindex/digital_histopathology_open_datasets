@@ -1,7 +1,7 @@
 # A Summary of Digital Histopathology Open Datasets
 
 _Authour: Binghao Chai_ <br>
-_Institute: Computer Science Department, University College London (UCL)_ <br>
+_Institute: University College London (UCL)_ <br>
 _Last Update: 15 August, 2021_ <br>
 
 ---
