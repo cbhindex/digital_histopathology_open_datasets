@@ -11,7 +11,14 @@ This document shows a summary of open databases in digital histopathology sortin
 **Download:** http://ludo17.free.fr/mitos_2012/ <br>
 **Cite:** <br>
 ```
-Roux, L., Racoceanu, D., Loménie, N., Kulikova, M., Irshad, H., Klossa, J., ... & Gurcan, M. N. (2013). Mitosis detection in breast cancer histological images An ICPR 2012 contest. Journal of pathology informatics, 4.
+@article{roux2013mitosis,
+  title={Mitosis detection in breast cancer histological images An ICPR 2012 contest},
+  author={Roux, Ludovic and Racoceanu, Daniel and Lom{\'e}nie, Nicolas and Kulikova, Maria and Irshad, Humayun and Klossa, Jacques and Capron, Fr{\'e}d{\'e}rique and Genestie, Catherine and Le Naour, Gilles and Gurcan, Metin N},
+  journal={Journal of pathology informatics},
+  volume={4},
+  year={2013},
+  publisher={Wolters Kluwer--Medknow Publications}
+}
 ```
 
 
