@@ -203,6 +203,25 @@ This document shows a summary of open databases in digital histopathology sortin
 }
 ```
 
+### 1.13 Mitosis WSI CCMCT Dataset
+**Goal:** Mitosis detection <br>
+**Images:** 32 WSIs in .dcm format <br>
+**Annotations:** 44,880 mitotic annotations <br>
+**Download:** https://www.kaggle.com/marcaubreville/mitosis-wsi-ccmct-training-set and https://www.kaggle.com/marcaubreville/mitosis-wsi-ccmct-test-set <br>
+**Cite:** <br>
+```
+@article{bertram2019large,
+  title={A large-scale dataset for mitotic figure assessment on whole slide images of canine cutaneous mast cell tumor},
+  author={Bertram, Christof A and Aubreville, Marc and Marzahl, Christian and Maier, Andreas and Klopfleisch, Robert},
+  journal={Scientific data},
+  volume={6},
+  number={1},
+  pages={1--9},
+  year={2019},
+  publisher={Nature Publishing Group}
+}
+```
+
 ## 2.Colon Cancer
 
 ### 2.1 GlAS Dataset (MICCAI 2015)
