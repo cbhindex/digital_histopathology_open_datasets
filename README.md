@@ -2,9 +2,9 @@
 
 This document shows a summary of open databases in digital histopathology sorting by types of cancers. A dataset description including the goal, type of annotations, and download methods are described in each of the datasets.
 
-## Breast Cancer
+## 1.Breast Cancer
 
-### 1. MITOS Dataset
+### 1.1 MITOS Dataset
 **Goal:** Mitosis detection <br>
 **Images:** 50 images (2048px\*2048px, 2252px\*2250px, 2767px\*2767px) <br>
 **Annotation:** Pixel-level annotation of mitotic cells <br>
@@ -21,13 +21,13 @@ This document shows a summary of open databases in digital histopathology sortin
 }
 ```
 
-### MITOS-ATYPIA-14 Dataset
+### 1.2 MITOS-ATYPIA-14 Dataset
 **Goal:** Mitosis detection <br>
 **Images:** 2112 images (1663px\*1485px) <br>
 **Annotation:** Centroid pixel of mitotic cells <br>
 **Download:** https://mitos-atypia-14.grand-challenge.org/ <br>
 
-### TUPAC Challenge Dataset
+### 1.3 TUPAC Challenge Dataset
 **Goal:** (1) Prediction of proliferation score based on mitosis counting, (2) Prediction of proliferation score based on molecular data, (3) Mitosis detection <br>
 **Images:** 821 images from 73 cases <br>
 **Annotation:** Proliferation scores, ROI of mitotic cells <br>
@@ -45,7 +45,7 @@ This document shows a summary of open databases in digital histopathology sortin
 }
 ```
 
-### HER2 Scoring (2016) Dataset
+### 1.4 HER2 Scoring (2016) Dataset
 **Goal:** HER2 scoring in breast cancer WSIs <br>
 **Images:** 86 WSIs <br>
 **Annotation:** HER2 score on whole-slide level <br>
@@ -64,7 +64,7 @@ This document shows a summary of open databases in digital histopathology sortin
 }
 ```
 
-### BreakHis Dataset
+### 1.5 BreakHis Dataset
 **Goal:** Breast cancer detection <br>
 **Images:** 7909 images (700px\*460px) from 82 patients <br>
 **Annotations:** Benign vs. Malignant annotation on the WSI level <br>
@@ -83,7 +83,7 @@ This document shows a summary of open databases in digital histopathology sortin
 }
 ```
 
-### CAMELYON-16 Dataset
+### 1.6 CAMELYON-16 Dataset
 **Goal:** Breast cancer metastasis detection <br>
 **Images:** 400 WSIs <br>
 **Annotations:** Contour of cancer locations (ROIs) <br>
@@ -102,7 +102,7 @@ This document shows a summary of open databases in digital histopathology sortin
 }
 ```
 
-### CAMELYON-17 Dataset
+### 1.7 CAMELYON-17 Dataset
 **Goal:** Breast cancer metastasis detection, pN-stage prediction <br>
 **Images:** 100 WSIs <br>
 **Annotations:** Contour of cancer locations (ROIs), patient level score <br>
@@ -121,7 +121,7 @@ This document shows a summary of open databases in digital histopathology sortin
 }
 ```
 
-### PCam Dataset
+### 1.8 PCam Dataset
 **Goal:** Breast Cancer metastasis detection <br>
 **Images:** 294,912 patches extracted from CAMELYON-16 dataset <br>
 **Annotations:** Patch-level binary label <br>
@@ -138,7 +138,7 @@ This document shows a summary of open databases in digital histopathology sortin
 }
 ```
 
-### BACH ICIAR (2018) Dataset
+### 1.9 BACH ICIAR (2018) Dataset
 **Goal:** Breast cancer classification <br>
 **Images:** 500 images (2048px\*1536px) <br>
 **Annotations:** Image-wise and pixel-level annotations <br>
@@ -156,7 +156,7 @@ This document shows a summary of open databases in digital histopathology sortin
 }
 ```
 
-### BreastPathQ Dataset
+### 1.10 BreastPathQ Dataset
 **Goal:** Tumour cellularity scoring <br>
 **Images:** 3700 images from 96 WSIs <br>
 **Annotations:** 3700 patch-level tumour cellularity score <br>
@@ -175,13 +175,13 @@ This document shows a summary of open databases in digital histopathology sortin
 }
 ```
 
-### Post-NAT-BRCA Dataset
+### 1.11 Post-NAT-BRCA Dataset
 **Goal:** Tumour cellularity scoring <br>
 **Images:** 96 images from64 patients <br>
 **Annotations:** Nuclei, patch and patient level annotations <br>
 **Download:** https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=52758117#52758117bcab02c187174a288dbcbf95d26179e8 <br>
 
-## Colon Cancer
+## 2.Colon Cancer
 
 ### TBC
 
