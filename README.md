@@ -181,10 +181,257 @@ This document shows a summary of open databases in digital histopathology sortin
 **Annotations:** Nuclei, patch and patient level annotations <br>
 **Download:** https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=52758117#52758117bcab02c187174a288dbcbf95d26179e8 <br>
 
+### 1.12 ER+ Breast Cancer Dataset by Andrew Janowczyk
+**Goal:** (1) ER+ breast cancer nuclei segmentation, (2) Epithelium region segmentation, (3) Lymphocyte detection, (4) Mitosis detection, (5) Invasive ductal carcinoma (IDC) identification, (6) Lymphoma subtype classification <br>
+**Images:** (1) 12,000 nuclei from 143 images (2000px\*2000px) for nuclei segmentation, (2) 42 images (1000px\*1000px) for epithelium segmentation, (3) 100 images (100px\*100px) for lymphocyte detection, (4) 311 images (2000px\*2000px) from 12 patients for mitosis detection, (5) 277,524 images (50px\*50px) from 162 WSIs for IDC identification, (6) 374 images (1388px\*1040px) for lymphoma subtype classification <br>
+**Annotations:** (1) Pixel-level nuclei annotation, (2) Pixel-level epithelium annotation, (3) The centers of 3,064 lymphocytes, (4) 550 mitosic centers, (5) binary label for IDC classification, (6) lymphoma subtype labels <br>
+**Download (1):** http://andrewjanowczyk.com/use-case-1-nuclei-segmentation/ <br>
+**Download (2):** http://andrewjanowczyk.com/use-case-2-epithelium-segmentation/ <br>
+**Download (3):** http://andrewjanowczyk.com/use-case-4-lymphocyte-detection/ <br>
+**Download (4):** http://andrewjanowczyk.com/use-case-5-mitosis-detection/ <br>
+**Download (5):** http://andrewjanowczyk.com/use-case-6-invasive-ductal-carcinoma-idc-segmentation/ <br>
+**Download (6):** http://andrewjanowczyk.com/use-case-7-lymphoma-sub-type-classification/ <br>
+**Cite:** <br>
+```
+@article{janowczyk2016deep,
+  title={Deep learning for digital pathology image analysis: A comprehensive tutorial with selected use cases},
+  author={Janowczyk, Andrew and Madabhushi, Anant},
+  journal={Journal of pathology informatics},
+  volume={7},
+  year={2016},
+  publisher={Wolters Kluwer--Medknow Publications}
+}
+```
+
 ## 2.Colon Cancer
 
-### TBC
+### 2.1 GlAS Dataset (MICCAI 2015)
+**Goal:** Gland segmentation <br>
+**Images:** 165 WSIs at x20 magnification <br>
+**Annotations:** Glandular boundaries <br>
+**Download:** https://warwick.ac.uk/fac/cross_fac/tia/data/glascontest/ <br>
+**Cite:** <br>
+```
+@article{sirinukunwattana2017gland,
+  title={Gland segmentation in colon histology images: The glas challenge contest},
+  author={Sirinukunwattana, Korsuk and Pluim, Josien PW and Chen, Hao and Qi, Xiaojuan and Heng, Pheng-Ann and Guo, Yun Bo and Wang, Li Yang and Matuszewski, Bogdan J and Bruni, Elia and Sanchez, Urko and others},
+  journal={Medical image analysis},
+  volume={35},
+  pages={489--502},
+  year={2017},
+  publisher={Elsevier}
+}
+```
+```
+@article{sirinukunwattana2015stochastic,
+  title={A stochastic polygons model for glandular structures in colon histology images},
+  author={Sirinukunwattana, Korsuk and Snead, David RJ and Rajpoot, Nasir M},
+  journal={IEEE transactions on medical imaging},
+  volume={34},
+  number={11},
+  pages={2366--2378},
+  year={2015},
+  publisher={IEEE}
+}
+```
 
+### 2.2 CoNSep Dataset
+**Goal:** Nuclei segmentation and classification <br>
+**Images:** 24,319 exhaustively annotated nuclei with associated class labels <br>
+**Annotations:** Pixel-level nuclei annotation with associated class labels <br>
+**Download:** https://warwick.ac.uk/fac/cross_fac/tia/data/hovernet/ <br>
+**Cite:* <br>
+```
+@article{graham2019hover,
+  title={Hover-net: Simultaneous segmentation and classification of nuclei in multi-tissue histology images},
+  author={Graham, Simon and Vu, Quoc Dang and Raza, Shan E Ahmed and Azam, Ayesha and Tsang, Yee Wah and Kwak, Jin Tae and Rajpoot, Nasir},
+  journal={Medical Image Analysis},
+  volume={58},
+  pages={101563},
+  year={2019},
+  publisher={Elsevier}
+}
+```
 
+### 2.3 NCT-CRC-HE-100k Dataset
+**Goal:** Tissue classification <br>
+**Images:** 107,180 patches from 111 WSIs <br>
+**Annotations:** Patch-label for nine class tissue classification <br>
+**Download:** https://zenodo.org/record/1214456#.YRkK6ogzaMp <br>
+**Cite:** <br>
+```
+@article{kather2018100,
+  title={100,000 histological images of human colorectal cancer and healthy tissue},
+  author={Kather, Jakob Nikolas and Halama, Niels and Marx, Alexander},
+  journal={URL: https://doi. org/10.5281/zenodo},
+  volume={1214456},
+  year={2018}
+}
+```
+
+### 2.4 CRAG (2019) Dataset
+**Goal:** Gland segmentation <br>
+**Images:** 213 images <br>
+**Annotations:** Gland instance-level ground truth <br>
+**Download:** https://warwick.ac.uk/fac/cross_fac/tia/data/mildnet/ <br>
+**Cite:** <br>
+```
+@article{graham2019mild,
+  title={MILD-Net: Minimal information loss dilated network for gland instance segmentation in colon histology images},
+  author={Graham, Simon and Chen, Hao and Gamper, Jevgenij and Dou, Qi and Heng, Pheng-Ann and Snead, David and Tsang, Yee Wah and Rajpoot, Nasir},
+  journal={Medical image analysis},
+  volume={52},
+  pages={199--211},
+  year={2019},
+  publisher={Elsevier}
+}
+```
+```
+@article{awan2017glandular,
+  title={Glandular morphometrics for objective grading of colorectal adenocarcinoma histology images},
+  author={Awan, Ruqayya and Sirinukunwattana, Korsuk and Epstein, David and Jefferyes, Samuel and Qidwai, Uvais and Aftab, Zia and Mujeeb, Imaad and Snead, David and Rajpoot, Nasir},
+  journal={Scientific reports},
+  volume={7},
+  number={1},
+  pages={1--12},
+  year={2017},
+  publisher={Nature Publishing Group}
+}
+```
+
+### 2.5 CRCHistoPhenotypes Dataset
+**Goal:** Nuclei detection and classification <br>
+**Images:** 29,756 nuclei from 100 WSIs <br>
+**Annotations:** 29,756 nuclei centres out of which 22,444 with associated class labels <br>
+**Download:** https://warwick.ac.uk/fac/cross_fac/tia/data/crchistolabelednucleihe/ <br>
+**Cite:** <br>
+```
+@article{sirinukunwattana2016locality,
+  title={Locality sensitive deep learning for detection and classification of nuclei in routine colon cancer histology images},
+  author={Sirinukunwattana, Korsuk and Raza, Shan E Ahmed and Tsang, Yee-Wah and Snead, David RJ and Cree, Ian A and Rajpoot, Nasir M},
+  journal={IEEE transactions on medical imaging},
+  volume={35},
+  number={5},
+  pages={1196--1206},
+  year={2016},
+  publisher={IEEE}
+}
+```
+
+### 2.6 Colorectal Cancer Grading Dataset & Extended Colorectal Cancer Grading Dataset
+**Goal:** Colorectal Cancer Grading <br>
+**Images:** 139 images (4548px\*7548px) <br> plus 300 images (4548px\*7548px) in Extended Colorectal Cancer Grading Dataset <br>
+**Annotations:** Cancer grading on the image level <br>
+**Download:** https://warwick.ac.uk/fac/cross_fac/tia/data/crc_grading/ and https://warwick.ac.uk/fac/cross_fac/tia/data/extended_crc_grading/ <br>
+**Cite:** <br>
+```
+@article{awan2017glandular,
+  title={Glandular morphometrics for objective grading of colorectal adenocarcinoma histology images},
+  author={Awan, Ruqayya and Sirinukunwattana, Korsuk and Epstein, David and Jefferyes, Samuel and Qidwai, Uvais and Aftab, Zia and Mujeeb, Imaad and Snead, David and Rajpoot, Nasir},
+  journal={Scientific reports},
+  volume={7},
+  number={1},
+  pages={1--12},
+  year={2017},
+  publisher={Nature Publishing Group}
+}
+```
+```
+@article{shaban2020context,
+  title={Context-aware convolutional neural network for grading of colorectal cancer histology images},
+  author={Shaban, Muhammad and Awan, Ruqayya and Fraz, Muhammad Moazam and Azam, Ayesha and Tsang, Yee-Wah and Snead, David and Rajpoot, Nasir M},
+  journal={IEEE transactions on medical imaging},
+  volume={39},
+  number={7},
+  pages={2395--2405},
+  year={2020},
+  publisher={IEEE}
+}
+```
+
+## 3.Pan Cancer
+
+### 3.1 PanNuke Dataset
+**Goal:** Nuclei segmentation and classification <br>
+**Images:** 205,343 labeled nuclei from 481 visual fields <br>
+**Annotations:** Pixel-level nuclei annotation with associated class labels <br>
+**Download:** https://warwick.ac.uk/fac/cross_fac/tia/data/pannuke and https://jgamper.github.io/PanNukeDataset/ <br>
+**Cite:** <br>
+```
+@inproceedings{gamper2019pannuke,
+  title={PanNuke: an open pan-cancer histology dataset for nuclei instance segmentation and classification},
+  author={Gamper, Jevgenij and Koohbanani, Navid Alemi and Benes, Ksenija and Khuram, Ali and Rajpoot, Nasir},
+  booktitle={European Congress on Digital Pathology},
+  pages={11--19},
+  year={2019},
+  organization={Springer}
+}
+```
+```
+@article{gamper2020pannuke,
+  title={PanNuke Dataset Extension, Insights and Baselines},
+  author={Gamper, Jevgenij and Koohbanani, Navid Alemi and Graham, Simon and Jahanifar, Mostafa and Khurram, Syed Ali and Azam, Ayesha and Hewitt, Katherine and Rajpoot, Nasir},
+  journal={arXiv preprint arXiv:2003.10778},
+  year={2020}
+}
+```
+
+### 3.2 MoNuSeg Dataset
+**Goal:** Nuelci segmentation <br>
+**Images:** 29,000 nuclei from 44 images <br>
+**Annotations:** Pixel-level nuclei annotation <br>
+**Download:** https://monuseg.grand-challenge.org/Home/ <br>
+**Cite:** <br>
+```
+@article{kumar2017dataset,
+  title={A dataset and a technique for generalized nuclear segmentation for computational pathology},
+  author={Kumar, Neeraj and Verma, Ruchika and Sharma, Sanuj and Bhargava, Surabhi and Vahadane, Abhishek and Sethi, Amit},
+  journal={IEEE transactions on medical imaging},
+  volume={36},
+  number={7},
+  pages={1550--1560},
+  year={2017},
+  publisher={IEEE}
+}
+```
+
+### 3.3 LYON Dataset
+**Goal:** Lymphocyte detection <br>
+**Images:** 83 WSIs <br>
+**Annotations:** 171,166 lymphocytes in 932 ROIs were annotated <br>
+**Download:** https://lyon19.grand-challenge.org/Home/ <br>
+**Cite:** <br>
+```
+@article{swiderska2019learning,
+  title={Learning to detect lymphocytes in immunohistochemistry with deep learning},
+  author={Swiderska-Chadaj, Zaneta and Pinckaers, Hans and van Rijthoven, Mart and Balkenhol, Maschenka and Melnikova, Margarita and Geessink, Oscar and Manson, Quirine and Sherman, Mark and Polonia, Antonio and Parry, Jeremy and others},
+  journal={Medical image analysis},
+  volume={58},
+  pages={101547},
+  year={2019},
+  publisher={Elsevier}
+}
+```
+
+## 4.Lung Cancer
+
+### 4.1 ACDC-LungHP (2019) Dataset
+**Goal:** Detection and classification of lung cancer subtypes <br>
+**Images:** 200 WSIs <br>
+**Annotations:** Contour of cancer locations plus image-level cancer subtype scores <br>
+**Download:** https://acdc-lunghp.grand-challenge.org/ <br>
+**Cite:** <br>
+```
+@inproceedings{reddy2021biomedical,
+  title={Biomedical image classification using deep convolutional neural networks--overview},
+  author={Reddy, M Bharath Simha and Rana, Pooja},
+  booktitle={IOP Conference Series: Materials Science and Engineering},
+  volume={1022},
+  number={1},
+  pages={012020},
+  year={2021},
+  organization={IOP Publishing}
+}
+```
 
 
