@@ -177,7 +177,7 @@ This document shows a summary of open databases in digital histopathology sortin
 
 ### 1.11 Post-NAT-BRCA Dataset
 **Goal:** Tumour cellularity scoring <br>
-**Images:** 96 images from64 patients <br>
+**Images:** 96 images from 64 patients <br>
 **Annotations:** Nuclei, patch and patient level annotations <br>
 **Download:** https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=52758117#52758117bcab02c187174a288dbcbf95d26179e8 <br>
 
