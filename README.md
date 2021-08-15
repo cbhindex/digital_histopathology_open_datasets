@@ -453,4 +453,41 @@ This document shows a summary of open databases in digital histopathology sortin
 }
 ```
 
+## 5.Gastrointestinal Cancer
+
+### 5.1 MSI & MSS Dataset
+**Goal:** Classification of MSI and MSS <br>
+**Images:** 411,890 images (224px\*224px) <br>
+**Annotations:** Binary labels for MSI and MSS <br>
+**Download:** https://doi.org/10.5281/zenodo.2530835 <br>
+**Cite:** <br>
+```
+@article{kather2019deep,
+  title={Deep learning can predict microsatellite instability directly from histology in gastrointestinal cancer},
+  author={Kather, Jakob Nikolas and Pearson, Alexander T and Halama, Niels and J{\"a}ger, Dirk and Krause, Jeremias and Loosen, Sven H and Marx, Alexander and Boor, Peter and Tacke, Frank and Neumann, Ulf Peter and others},
+  journal={Nature medicine},
+  volume={25},
+  number={7},
+  pages={1054--1056},
+  year={2019},
+  publisher={Nature Publishing Group}
+}
+```
+
+### 5.2 DigestPath Dataset (MICCAI 2019)
+**Goal:** Signet ring cell detection and colonoscopy tissue segmentation <br>
+**Images:** 77 images (2000px\*2000px) from 20 WSIs for signet ring cell detection and 872 images (3000px\*3000px) for colonoscopy tissue segmentation <br>
+**Annotations:** (1) bounding boxes for signet ring cells in xml format, (2) Pixel=level annotation for colonoscopy tissue segmentation <br>
+**Download:** https://digestpath2019.grand-challenge.org/Home/ (access upon request) <br>
+**Cite:** <br>
+```
+@inproceedings{li2019signet,
+  title={Signet ring cell detection with a semi-supervised learning framework},
+  author={Li, Jiahui and Yang, Shuang and Huang, Xiaodi and Da, Qian and Yang, Xiaoqun and Hu, Zhiqiang and Duan, Qi and Wang, Chaofu and Li, Hongsheng},
+  booktitle={International Conference on Information Processing in Medical Imaging},
+  pages={842--854},
+  year={2019},
+  organization={Springer}
+}
+```
 
