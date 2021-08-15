@@ -8,7 +8,8 @@ _Last Update: 15 August, 2021_ <br>
 
 This document shows a summary of open databases in digital histopathology sorting by types of cancers. A dataset description including the goal, type of annotations, and download methods are described in each of the datasets.
 
-| Type of Cancers | Number of Datasets |
+Table 1: Dataset statistics by type of cancer <br>
+| <div style="width: 150pt">Type of Cancers</div> | Number of Datasets |
 | :--: | :--: |
 | Breast Cancer | 13 |
 | Colon Cancer | 6 |
@@ -16,13 +17,14 @@ This document shows a summary of open databases in digital histopathology sortin
 | Lung Cancer | 1 |
 | Gastrointestinal Cancer | 2 |
 
-**TBC** <br>
-| Type of Tasks | Number of Datasets |
+Table 2: Dataset statistics by type of conputationsl tasks (note: one dataset may match multi-tasks) <br>
+| <div style="width: 150pt">Type of Tasks</div> | Number of Datasets |
 | :--: | :--: |
-| Tissue Classification | TBC |
-| Tissue Segmentation | TBC |
-| Nuclei Segmentation | TBC |
-| Detection | TBC |
+| Mitosis Detection and Counting | 5 |
+| Cancer Scoring and Grading | 4 |
+| Tumour Classificationi and Detection | 9 |
+| Nuclei Segmentation and Detection | 7 |
+| Gland Segmentation and Detection | 2 |
 
 ## 1.Breast Cancer
 
@@ -89,7 +91,7 @@ This document shows a summary of open databases in digital histopathology sortin
 ### 1.5 BreakHis Dataset
 **Goal:** Breast cancer detection <br>
 **Images:** 7909 images (700px\*460px) from 82 patients <br>
-**Annotations:** Benign vs. Malignant annotation on the WSI level <br>
+**Annotations:** Benign v.s. malignant annotation on the WSI level <br>
 **Download:** https://web.inf.ufpr.br/vri/databases/breast-cancer-histopathological-database-breakhis/ (access upon request) <br>
 **Cite:** <br>
 ```
