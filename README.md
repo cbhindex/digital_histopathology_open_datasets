@@ -16,6 +16,7 @@ This document shows a summary of open databases in digital histopathology sortin
 | Lung Cancer | 1 |
 | Gastrointestinal Cancer | 2 |
 
+**TBC** <br>
 | Type of Tasks | Number of Datasets |
 | :--: | :--: |
 | Tissue Classification | TBC |
