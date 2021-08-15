@@ -2,6 +2,14 @@
 
 This document shows a summary of open databases in digital histopathology sorting by types of cancers. A dataset description including the goal, type of annotations, and download methods are described in each of the datasets.
 
+| Type of Cancer | Number of Open Datasets |
+| :--: | :--: |
+| Breast Cancer | 13 |
+| Colon Cancer | 6 |
+| Pan Cancer | 3 |
+| Lung Cancer | 1 |
+| Gastrointestinal Cancer | 2 |
+
 ## 1.Breast Cancer
 
 ### 1.1 MITOS Dataset
