@@ -5,11 +5,11 @@ This document shows a summary of open databases in digital histopathology sortin
 ## Breast Cancer
 
 ### 1. ICPR 2012 (Cireşan et al., 2013)
-Goal: Mitosis detection
-Images: 50 images (2048px\*2048px, 2252px\*2250px, 2767px\*2767px)
-Annotation: Pixel-level annotation of mitotic cells
-Download: http://ludo17.free.fr/mitos_2012/
-Cite:
+Goal: Mitosis detection 
+Images: 50 images (2048px\*2048px, 2252px\*2250px, 2767px\*2767px) 
+Annotation: Pixel-level annotation of mitotic cells 
+Download: http://ludo17.free.fr/mitos_2012/ 
+Cite: 
 ```
 Roux, L., Racoceanu, D., Loménie, N., Kulikova, M., Irshad, H., Klossa, J., ... & Gurcan, M. N. (2013). Mitosis detection in breast cancer histological images An ICPR 2012 contest. Journal of pathology informatics, 4.
 ```
