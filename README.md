@@ -283,7 +283,7 @@ Table 2: Dataset statistics by type of computationsl tasks (note: one dataset ma
 **Images:** 24,319 exhaustively annotated nuclei with associated class labels <br>
 **Annotations:** Pixel-level nuclei annotation with associated class labels <br>
 **Download:** https://warwick.ac.uk/fac/cross_fac/tia/data/hovernet/ <br>
-**Cite:* <br>
+**Cite:** <br>
 ```
 @article{graham2019hover,
   title={Hover-net: Simultaneous segmentation and classification of nuclei in multi-tissue histology images},
