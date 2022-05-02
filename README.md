@@ -22,7 +22,7 @@ Table 2: Dataset statistics by type of computationsl tasks (note: one dataset ma
 | :--: | :--: |
 | Mitosis Detection and Counting | 5 |
 | Cancer Scoring and Grading | 4 |
-| Tumour Classificationi and Detection | 9 |
+| Tumour Classificationi and Detection | 10 |
 | Nuclei Segmentation and Detection | 7 |
 | Gland Segmentation and Detection | 2 |
 
