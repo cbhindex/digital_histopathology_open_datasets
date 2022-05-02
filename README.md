@@ -11,7 +11,7 @@ This document shows a summary of open databases in digital histopathology sortin
 Table 1: Dataset statistics by type of cancers <br>
 | Type of Cancers | Number of Datasets |
 | :--: | :--: |
-| Breast Cancer | 13 |
+| Breast Cancer | 14 |
 | Colon Cancer | 6 |
 | Pan Cancer | 3 |
 | Lung Cancer | 1 |
@@ -243,6 +243,24 @@ Table 2: Dataset statistics by type of computationsl tasks (note: one dataset ma
   pages={1--9},
   year={2019},
   publisher={Nature Publishing Group}
+}
+```
+
+### 1.14 Breast Cancer Histopathological Database (BreakHis)
+**Goal:** Binary Classification <br>
+**Images:** 9,109 microscopic images (ROIs) <br>
+**Download:** https://web.inf.ufpr.br/vri/databases/breast-cancer-histopathological-database-breakhis/ <br>
+**Cite:** <br>
+```
+@article{spanhol2015dataset,
+  title={A dataset for breast cancer histopathological image classification},
+  author={Spanhol, Fabio A and Oliveira, Luiz S and Petitjean, Caroline and Heutte, Laurent},
+  journal={Ieee transactions on biomedical engineering},
+  volume={63},
+  number={7},
+  pages={1455--1462},
+  year={2015},
+  publisher={IEEE}
 }
 ```
 
