@@ -12,7 +12,7 @@ Table 1: Dataset statistics by type of cancers <br>
 | Type of Cancers | Number of Datasets |
 | :--: | :--: |
 | Breast Cancer | 14 |
-| Colon Cancer | 6 |
+| Colon Cancer | 7 |
 | Pan Cancer | 3 |
 | Lung Cancer | 1 |
 | Gastrointestinal Cancer | 2 |
@@ -23,7 +23,7 @@ Table 2: Dataset statistics by type of computationsl tasks (note: one dataset ma
 | Mitosis Detection and Counting | 5 |
 | Cancer Scoring and Grading | 4 |
 | Tumour Classificationi and Detection | 10 |
-| Nuclei Segmentation and Detection | 7 |
+| Nuclei Segmentation and Detection | 8 |
 | Gland Segmentation and Detection | 2 |
 
 ## 1.Breast Cancer
@@ -407,6 +407,19 @@ Table 2: Dataset statistics by type of computationsl tasks (note: one dataset ma
   pages={2395--2405},
   year={2020},
   publisher={IEEE}
+}
+```
+
+### 2.7 Lizard Colonic Nuclear Dataset
+**Goal:** Colonic Nuclear Instance Segmentation and Classification <br>
+**Cite:** <br>
+```
+@inproceedings{graham2021lizard,
+  title={Lizard: a large-scale dataset for colonic nuclear instance segmentation and classification},
+  author={Graham, Simon and Jahanifar, Mostafa and Azam, Ayesha and Nimir, Mohammed and Tsang, Yee-Wah and Dodd, Katherine and Hero, Emily and Sahota, Harvir and Tank, Atisha and Benes, Ksenija and others},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={684--693},
+  year={2021}
 }
 ```
 
